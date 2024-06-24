@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(220, 220, 220, 0.115);
+}
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+table.table.info{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px;
+}
+table.center{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px;
+}
+.chuyenchap{
+    width:300px;
+    font-size: large;
+    background-color: rgba(9, 168, 9, 0.815);
+    border-radius: 8px;
+    border-color:rgba(9, 168, 9, 0.815) ;
+    color: #fff;
+}
+.xemthem{
+    display: flex;
+    width: 1000px;
+    padding: 10px;
+    justify-content: center;
+}
+.lk{
+    display: block;
+    width: 90px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(2, 107, 187);
+    color: #fff;
+    border-color: rgb(2, 107, 187);
+}
+h1{
+    color: rgba(2, 132, 2, 0.955);
+}
+h3{
+    color: rgba(2, 132, 2, 0.955);
+}
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+  }
+.thongbao{
+    display: block;
+    width: 1000px;
+    background-color: rgba(0, 255, 64, 0.218);
+    font-size: 15px;
+    padding: 3px;
+}

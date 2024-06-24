@@ -1,0 +1,66 @@
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+}
+.form-login{
+    display: flex;
+    width: 300px;
+    background-color: rgba(2, 132, 2, 0.077);
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    display: flex;
+    align-items:center ;
+    background-color: rgba(2, 132, 2, 0.955);
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.input-login{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+.input-info{
+    margin-bottom: 15px;
+    height: 35px;
+    border-radius: 3px;
+    border-color: darkgrey;
+}
+.signup-new{
+    float: right;
+    color: #288ad6;
+}
+.submit-dang-nhap{
+    background-color: rgba(6, 162, 6, 0.734);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    height: 30px;
+    border: 2px solid rgba(2, 132, 2, 0.955);
+    margin-top: 15px;
+    border-radius: 3px;
+}

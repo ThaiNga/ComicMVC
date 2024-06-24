@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(220, 220, 220, 0.115);
+}
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+.content{
+    width: 1000px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+div.readmanga{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px;
+}
+.tentruyen{
+    text-align: center;
+    color: rgba(2, 132, 2, 0.955);
+}
+h3{
+    text-align: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ div.input_right{
+    display: flex;
+    gap: 5px;
+    float: right;
+}
+
+/* div.input_left{
+    float: left;
+}  */
+.chonchap{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color: rgba(128, 128, 128, 0.573);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.738);
+}
+.input_item{
+    /* height: 40px; */
+    color: white;
+    background-color: rgba(2, 132, 2, 0.955);
+    border: none;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.imagemanga{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+  }

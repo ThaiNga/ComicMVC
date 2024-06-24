@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:59:23 +0700] "GET /ComicMVC/home HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [24/Dec/2023:22:59:28 +0700] "GET /ComicMVC/dangnhap HTTP/1.1" 404 - http-bio-8080-exec-3 0

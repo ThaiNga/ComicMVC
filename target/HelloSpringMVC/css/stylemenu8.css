@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(220, 220, 220, 0.115);
+}
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+.content{
+    width: 1100px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.websitename{
+    color: rgba(2, 132, 2, 0.955);
+    font-weight: 600;
+}
+.guide{
+    display: block;
+    background-color:rgb(3, 117, 3) ;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width: 85px;
+    padding: 8px;
+    text-align: center;
+}
+.theloai{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    border: 2px solid green;
+    border-radius: 6px;
+    padding: 6px;
+    margin-top: 10px;
+}
+.theloai-item{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.theloai-icon{
+    color: rgba(9, 168, 9, 0.815);
+}
+.dstruyen{
+    width: 1100px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.truyen-input{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.152);
+}
+.truyen-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+    /* background-color: white; */
+}
+.truyen-item{
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.tentruyen{
+    color: black;
+    text-transform: uppercase;
+    font-size: large;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+}
+
+.chaptruyen{
+	width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.chapmoi{
+    width: 70px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(226, 225, 225);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.thoigian{
+    text-align: center;
+}
+
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+  }
+ .phan-trang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phan-trang-item{
+    display: flex;
+    margin: 5px;
+    border: 1px solid rgb(3, 117, 3) ;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}

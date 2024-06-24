@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+  }
+.them-chap-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

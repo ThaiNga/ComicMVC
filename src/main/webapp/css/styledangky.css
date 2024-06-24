@@ -1,0 +1,63 @@
+.div-body{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    background-color: rgba(2, 149, 66, 0.201);
+    /* background-color: white; */
+}
+.navbar-nav>.active>a{
+    background-color: rgba(2, 158, 70, 0.375);
+    /* background-color: rgba(220, 220, 220, 0.318); */
+}
+.navbar-nav>li>a:hover{
+    background-color: rgba(2, 149, 66, 0.173);
+}
+#content{
+    background-color: rgba(2, 132, 2, 0.955);
+    width: 700px;
+    height: 50px;
+}
+#content span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    display: inline-block;
+}
+.remind{
+    margin-top: 10px;
+    font-size: 16px;
+}
+#input_profile{
+    width: 700px;
+    /* padding-right:500px ; */
+}
+.input-password{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 10px;
+    height: 30px;
+}
+select{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
+.submit-dang-ky{
+    background-color: rgba(2, 132, 2, 0.955);
+    color: white;
+    border: 2px solid rgba(2, 79, 2, 0.9);
+}
+a{
+    color: black;
+    
+}
+a:hover {
+    color: rgba(9, 168, 9, 0.815);
+    text-decoration: none;
+}
